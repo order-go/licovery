@@ -100,87 +100,74 @@ const data: {
     },
     {
       id: 4,
-      name: "salchipapas",
+      name: "Espumantes",
       products: [
         {
           id: 1,
-          title: "Salchipapas",
-          price: 4.99,
+          title: "Espumantes",
+          price: 3.99,
           images: [
-            "/licovery/salchipapa/salchipapas.jpg",
-            "/licovery/salchipapa/salchipapas2.jpg",
+            "/licovery/espumas/espuma1.jpg",
+            "/licovery/espumas/espuma2.jpg",
           ],
           description:
-            "Combo de salchicas picadas papas fritas combinadas con salsas al gusto, queso amarillo, jamon y tocineta.",
+            "Se caracteriza por su efervescencia natural. Se elaboran a partir de variedades de uva específicas y son populares en celebraciones y eventos especiales.",
         },
       ],
     },
     {
       id: 5,
-      name: "combos",
+      name: "Cocktail's",
       products: [
         {
           id: 1,
-          title: "Combo 2 personas",
-          price: 4.99,
-          images: ["/licovery/combos/combofamiliar.jpg"],
+          title: "Cocktail's",
+          price: 0.99,
+          images: ["/licovery/cocktails/cocktail1.jpg",
+          "/licovery/cocktails/cocktail2.jpg",
+          "/licovery/cocktails/cocktail3.jpg",],
+
           description:
-            "Combo para dos personas dos perros calientes, 2 racion de pollo y papas fritas mas 2 jugos naturales.",
-        },
-        {
-          id: 2,
-          title: "Papas fritas",
-          price: 2.99,
-          images: ["/licovery/combos/papasfritas.jpg"],
-          description:
-            "Racion extensa de papas fritas con salsa tartara para abrir el apetito.",
+            "Bebidas mezcladas que combinan diferentes tipos de licores con ingredientes, como jugos, sodas, frutas y hierbas, crean sabores únicos y variados.",
         },
       ],
     },
     {
       id: 6,
-      name: "Bebidas",
+      name: "Vinos",
       products: [
         {
           id: 1,
-          title: "Coca Cola 1Lts",
-          price: 0.99,
+          title: "Vinos",
+          price: 4.99,
           images: [
-            "/licovery/bebidas/CocaCola.jfif",
-            "/licovery/bebidas/Coca-Cola2.jfif",
-            "/licovery/bebidas/Coca-Cola3.jfif",
+            "/licovery/vinos/vino1.jpg",
+            "/licovery/vinos/vino2.jpg",
           ],
           description:
-            "Bebida Coca-Cola de 1Lt perfecta para acompañar tus pedidos en pareja.",
-        },
-        {
-          id: 2,
-          title: "Vaso Coca Cola",
-          price: 0.5,
-          images: [
-            "/licovery/bebidas/basoCoca.jpg",
-            "/licovery/bebidas/Coca-Cola2.jfif",
-          ],
-          description:
-            "Bebida Coca-Cola  perfecta para acompañar tus pedidos individuales.",
-        },
-        {
-          id: 3,
-          title: "Batido de cambur",
-          price: 0.99,
-          images: ["/licovery/bebidas/batidocambur.jpg"],
-          description: "Delicioso batido de cambur muy nutritivo y natural.",
-        },
-        {
-          id: 4,
-          title: "Batido de naranja",
-          price: 0.99,
-          images: ["/licovery/bebidas/batidosabroso.jpg"],
-          description:
-            "Jugo de naranja para los amantes del citrico, altos valores de vitamina C.",
+            "Bebida alcohólica hecha por la fermentación del jugo de uvas. Su sabor y aroma varían según las uvas usadas y el método de producción. Es apreciado por su capacidad para complementar comidas y su importancia cultural.",
         },
       ],
     },
+    {
+      id: 7,
+      name: "Snacks",
+      products: [
+        {
+          id: 1,
+          title: "Snacks",
+          price: 0.49,
+          images: [
+            "/licovery/snacks/snack1.jpg",
+            "/licovery/snacks/snack2.jpg",
+            "/licovery/snacks/snack3.jpg",
+          ],
+          description:
+            "Los snacks son alimentos ligeros y rápidos de consumir, perfectos para acompañar bebidas alcohólicas",
+        },
+      ],
+    },
+
   ],
   paydates: {
     bank: "Venezuela",
