@@ -3,7 +3,7 @@
 import {useState} from 'react';
 import CartSidebar from './CartSideBar';
 import {useCart} from '../../hooks/useCart';
-import IconBurger from '../atoms/IconBurger';
+import IconBotle from '../atoms/IconBotle';
 import Title from '../atoms/common/Title';
 import MenuNavbar from '../molecules/NavbarMenu';
 
@@ -12,7 +12,7 @@ const Navbar=() => {
   const [isMenuOpen,setIsMenuOpen]=useState(false);
   const {cartItems}=useCart();
 
-  const handleIconBurgerClick: () => void=(): void => {
+  const handleIconBotleClick: () => void=(): void => {
     console.log(isCartOpen);
     setIsCartOpen(!isCartOpen);
   };
@@ -25,9 +25,9 @@ const Navbar=() => {
     <>
       <div className='z-50 top-0 fixed h-10 w-full flex flex-row-reverse justify-between items-center px-4 pt-2 bg-primary box-shadow text-black text-lg'>
         <div className='flex flex-row gap-2'>
-          <Title color='text-tertiary' title={'MOSTAZA'} />
-          <IconBurger
-            onClick={handleIconBurgerClick}
+          <Title color='text-tertiary' title={'LICOVERY'} />
+          <IconBotle
+            onClick={handleIconBotleClick}
             productCount={cartItems.length}
           />
         </div>

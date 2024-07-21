@@ -6,11 +6,11 @@ const Footer = () => {
       <div className='container mx-auto px-4'>
         <div className='flex flex-col items-center text-center space-y-4'>
           <div className='text-yellow-500'>
-            <h1 className='text-xl font-bold'>Mostaza Burger</h1>
-            <p className='mt-1 text-sm'>La mejor comida rápida en la ciudad</p>
+            <h1 className='text-xl font-bold'>Licovery</h1>
+            <p className='mt-1 text-sm'>Licor de calidad directo a tu hogar</p>
           </div>
           <div className='text-brown-500 text-sm'>
-            <p>&copy; 2024 Mostaza Burger. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Licovery. Todos los derechos reservados.</p>
           </div>
           <div className='mt-4 flex justify-center space-x-4'>
             <ul className=' flex flex-row justify-between'>

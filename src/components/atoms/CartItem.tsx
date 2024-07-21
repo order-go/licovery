@@ -12,7 +12,7 @@ const CartItem = ({
   removeFromCart: any;
 }) => (
   <li key={item.product.id} className='mb-4 text-gray-300'>
-    <div className='flex justify-between items-center'>
+    <div className=' flex justify-between items-center'>
       <div>
         <p className='font-semibold'>{item.product.title}</p>
         <p>${item.product.price.toFixed(2)}</p>

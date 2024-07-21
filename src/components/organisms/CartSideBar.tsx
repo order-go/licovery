@@ -59,7 +59,7 @@ const CartSidebar=({isOpen,onClose}: {isOpen: boolean; onClose: () => void;}) =>
 
         setTimeout((): void => {
             const cartInfo=JSON.parse(localStorage.getItem('cartInfo')!);
-            const phoneNumber="584124676968";
+            const phoneNumber="584125026472";
             const message=`Hola, me gustaría realizar el pago del pedido.\n\nDetalles del pedido:\n${cartInfo.orderSummary}\nMonto: $${parseFloat(cartInfo.monto).toFixed(2)}\nComentario: ${cartInfo.comment}\nReferencia: ${referenceNumber}`;
             const whatsappLink=`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
