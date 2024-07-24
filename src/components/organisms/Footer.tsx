@@ -11,8 +11,8 @@ const Footer = () => {
             🛵 Servicio deliVERY</p>
           </div>
           <div className='text-brown-500 text-sm'>
-            <p>&copy; 2024 Licovery. 
-               <span> {data?.contactData[0]?.name}</span>Todos los derechos reservados.
+            <p>&copy; 2024. 
+               <span> {data?.contactData[0]?.name}</span> Todos los derechos reservados.
                 </p>
                 </div>
           <div className='mt-4 flex justify-center space-x-4'>
