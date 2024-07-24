@@ -25,10 +25,15 @@ export interface ContactItem {
   link: string;
   icon: IconType;
 }
+export interface DeliveryOptions {
+  name: string;
+  fee: number;
+}
 const data: {
   categories: Category[];
   paydates: PayDates;
   contactData: ContactItem[];
+  deliveryOptions: DeliveryOptions[];
 } = {
   categories: [
     {
@@ -186,6 +191,11 @@ const data: {
       link: "https://wa.me/4125026472",
       icon: FaWhatsapp,
     },
+  ],
+  deliveryOptions: [
+    { name: "Caña de Azucar", fee: 0 },
+    { name: "El Limon", fee: 2 },
+    { name: "San Vicente", fee: 3 },
   ],
 };
 

@@ -11,8 +11,10 @@ const Footer = () => {
             🛵 Servicio deliVERY</p>
           </div>
           <div className='text-brown-500 text-sm'>
-            <p>&copy; 2024 Licovery. Todos los derechos reservados.</p>
-          </div>
+            <p>&copy; 2024 Licovery. 
+               <span> {data?.contactData[0]?.name}</span>Todos los derechos reservados.
+                </p>
+                </div>
           <div className='mt-4 flex justify-center space-x-4'>
             <ul className=' flex flex-row justify-between'>
               {data?.contactData.map((item: ContactItem, index: number) => (
