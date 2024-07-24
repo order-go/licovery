@@ -11,7 +11,7 @@ const Footer = () => {
             🛵 Servicio deliVERY</p>
           </div>
           <div className='text-brown-500 text-sm'>
-            <p>&copy; 2024 Licovery. 
+            <p>&copy; 2024. 
                <span> {data?.contactData[0]?.name}</span>Todos los derechos reservados.
                 </p>
                 </div>
